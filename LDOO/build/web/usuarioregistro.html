@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        <header>
+            <h1>Bienvenido, adelante registrate :)</h1>
+            <p>Por favor, llena los campos a continuacion para completar tu registro.</p>
+        </header>
+        
+        <form action="RegistroServlet" method="POST" autocomplete="on">
+            <input name="nombre" type="text" placeholder="Nombre" required autofocus/>
+            <input name="apellido" type="text" placeholder="Apellidos" required/><br><br>
+            <input name="correo" type="email" placeholder="Correo electronico" title="correo@ejemplo.com" required/><br><br>
+            <input name="contrasenia" type="password" placeholder="Contraseña" required/><br><br>
+            <input name="recontrasenia" type="password" placeholder="Confirmar contraseña" required/><br><br>
+            <input type="submit" value="Registrarse">
+            <input type="reset" value="Borrar"><br><br>
+        </form>
+        
+        <nav>
+            <a href="index.html">Inicio</a><br><br>
+            <a href="login.html">Iniciar sesion</a><br><br>
+        </nav>
+
+    </body>
+</html>
