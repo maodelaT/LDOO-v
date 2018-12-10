@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="stylesheet" href="estilos.css">
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <title>Registrarse</title>
+        <link rel="shortcut icon" href="indexLogo.png"/>
+    </head>
+    <body>
+        <div class="contenedor-formulario">
+            <div class="wrap">
+                <form action="RegistroControlador" class="formulario" name="formulario_registro" method="POST">
+                    <div>
+                        <div class="input-group">
+                            <h3><label>Nombre:</label></h3>
+                            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+                            <label class="label" for="nombre"></label>
+                        </div>
+                        <div class="input-group">
+                            <h3><label>Apellido:</label></h3>
+                            <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required>
+                            <label class="label" for="nombre"></label>
+                        </div>
+                        <div class="input-group">
+                            <h3><label>Correo:</label></h3>
+                            <input type="email" id="correo" name="correo" placeholder="alguien@ejemplo.com" required>
+                            <label class="label" for="correo"></label>
+                        </div>
+                        <div class="input-group">
+                            <h3><label>Contraseña:</label></h3>
+                            <input type="password" id="pass" name="password" placeholder="Ingrese su contraseña" required>
+                            <label class="label" for="pass"></label>
+                        </div>
+                        <div class="input-group">
+                            <h3><label>Repetir Contraseña:</label></h3>
+                            <input type="password" id="pass2" name="password2" placeholder="Confirma tu contraseña" required>
+                            <label class="label" for="pass2"></label>
+                        </div>
+                        <input type="submit" id="btn-submit" value="Enviar">
+                    </div>
+                </form>
+                <br><a href="login.jsp">¿Ya tienes una cuenta?</a>
+            </div>
+        </div>
+
+        <script src="js/formulario.js"></script>
+    </body>
+</html>

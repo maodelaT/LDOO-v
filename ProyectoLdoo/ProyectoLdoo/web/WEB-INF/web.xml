@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>RegistroControlador</servlet-name>
+        <servlet-class>Controlador.RegistroControlador</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LoginControlador</servlet-name>
+        <servlet-class>Controlador.LoginControlador</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CerrarServlet</servlet-name>
+        <servlet-class>Controlador.CerrarServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>VotosControlador</servlet-name>
+        <servlet-class>Controlador.VotosControlador</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegistroControlador</servlet-name>
+        <url-pattern>/RegistroControlador</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginControlador</servlet-name>
+        <url-pattern>/LoginControlador</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CerrarServlet</servlet-name>
+        <url-pattern>/CerrarServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>VotosControlador</servlet-name>
+        <url-pattern>/VotosControlador</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

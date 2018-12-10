@@ -1,0 +1,131 @@
+
+h1 {
+
+color:white;
+text-align: center;
+font-family: "Consolas";
+font-size: 70px;
+
+}
+
+h2 span {
+
+    color:white;
+    text-align: left;
+    border:solid;
+    padding: 10px;
+    background-image: url("ama.jpg");
+    background-size: cover;
+    font-family: "Consolas";
+
+}
+
+h3 {
+
+color:black;
+font-family: "Consolas";
+font-size: 20px;
+
+}
+
+.img-circle {
+    border: 10px solid black;
+    border-radius: 70%;
+}
+
+.img-cuadrado{
+    border: 4px solid black;
+    padding: 10px;
+    background-image: url("l.jpg");
+    background-size: cover;
+}
+
+#header {
+    background-image: url("l.jpg");
+    background-size: cover;
+}
+
+#footer {
+    background-image: url("l.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+
+#header img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+.section {
+    background-color: #cccccc;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.section2 {
+    background-image: url("l2.jpg");
+    background-size: cover;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+p{
+
+color:white;
+font-family: "Consolas";
+font-size: 25px;
+
+}
+
+table, th, td {
+	border: none;
+	border-collapse: collapse;
+	text-align: center;
+	table-layout: fixed;
+}
+
+li {
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+table {
+	width: 100%;
+}
+
+body{
+    
+color:white;
+font-family: "Consolas";
+font-size: 30px;
+    
+    
+}
+
+progress{
+    width: 50%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #efefef;
+}
+
+  input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 10%;
+  background: #ffffff;
+  color: #000;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+
+
+
+
